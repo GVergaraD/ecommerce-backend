@@ -15,3 +15,9 @@ material ui
 tailwind
 
 Gabriel
+
+Usar material UI para componentes del frontend
+
+Levantar frontend en hosting tipo netlify
+
+Levantar backend en algun proveedor cloud
