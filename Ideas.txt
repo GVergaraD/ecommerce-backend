@@ -1,3 +1,14 @@
 Danny
+Ecomerce para pasteleria, inicialmente debera tener un crud basico (Ver, Guardar, Editar, Eliminar)
+catalogo tipo Ecomerce, reserva de pedidos, ¿pagar online?, estadisticas de compras, envio de mensajes o correos
+
+Color tematico configurable?
+Base de datos
+tablas:
+- pedido
+- pagos
+- productos
+- clientes??
+- 
 
 Gabriel
