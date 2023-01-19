@@ -13,8 +13,24 @@ const getLanguage = async (req, res)=>{
     
 };
 
+const addLanguage = async (req, res)=>{
+    try {
+        const { name, programmers } = req.body
+        const language = { name, programmers }
+        const connection = await getConnection()
+        const result = await connection.query("INSERT INTO language SET ?", language )
+        res.json(result)
+    } catch (error) {
+        res.status(500)
+        restart.send(error.message)
+    }
+    
+};
+
+
 export const methods = {
-    getLanguage
+    getLanguage,
+    addLanguage
 }
 
 
